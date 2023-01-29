@@ -1,6 +1,6 @@
 class Carro
 
-    attr_accessor :marca, :modelo
+    attr_acessor :marca, :modelo
 
     def valorcidade_maxima #criando o metodo
          250

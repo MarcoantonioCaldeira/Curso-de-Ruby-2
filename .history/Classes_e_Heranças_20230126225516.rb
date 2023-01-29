@@ -1,6 +1,6 @@
 class Carro
 
-    attr_accessor :marca, :modelo
+    attr_acessor: marca, :modelo
 
     def valorcidade_maxima #criando o metodo
          250
@@ -10,8 +10,6 @@ end
 
 carro = Carro.new
 carro.marca = "Ford"
-carro.modelo = "Ford Eco Sport"
-puts "Marca: " + carro.marca
-puts "Modelo: " + carro.modelo
+puts carro.marca
 
 
