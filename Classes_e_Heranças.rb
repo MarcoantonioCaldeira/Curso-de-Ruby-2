@@ -1,3 +1,4 @@
+#As classes sempre começam com letra maiuscula
 class Carro
 
     attr_accessor :marca, :modelo
@@ -13,5 +14,9 @@ carro.marca = "Ford"
 carro.modelo = "Ford Eco Sport"
 puts "Marca: " + carro.marca
 puts "Modelo: " + carro.modelo
+
+
+#Modulos, Mixins e Yields
+
 
 
